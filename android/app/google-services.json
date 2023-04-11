@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977768847859",
+    "project_id": "mynotes-flutter-heimzza",
+    "storage_bucket": "mynotes-flutter-heimzza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977768847859:android:c61b683917dde0ea251a86",
+        "android_client_info": {
+          "package_name": "com.heimzza.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977768847859-7oirlhru4n08f0ipbhnpb3616m8caod5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fL5nqXFk9MpfKCzpkqMtKn6alvPqIbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977768847859-7oirlhru4n08f0ipbhnpb3616m8caod5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
