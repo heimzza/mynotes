@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'dart:developer' as devtools show log;
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
@@ -58,9 +59,13 @@ class _LoginViewState extends State<LoginView> {
                 email: email,
                 password: password,
               );
-              print(userCredential);
+              Navigator.of(context).pushNamedAndRemoveUntil(
+                '/notes/',
+                (route) => false,
+              );
+              devtools.log(userCredential.toString());
             } on FirebaseAuthException catch (e) {
-              print(e.code);
+              devtools.log(e.code);
             }
           },
           child: const Text('Login'),
